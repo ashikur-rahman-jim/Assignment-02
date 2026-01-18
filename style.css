@@ -1,3 +1,70 @@
-p {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Shared Style */
+#navbar-section {
+    /* border: 1px solid red; */
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    border-bottom: 1px solid #412567;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    width: 130px;
+    height: 42px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(30deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    color: #FFFFFF;
+}
+
+/* Navbar Style */
+.navbar-container {
+    /* border: 1px solid gold; */
+    width: 75vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container .logo {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+.navbar-container .logo span {
+    background-image: linear-gradient(to top, rgba(247, 233, 63, 1) , rgba(251, 9, 180, 1) , rgba(145, 0, 248, 1));
+    color: transparent;
+    background-clip: text;
+}
+
+.navbar-container .navbar-lists {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.navbar-container .navbar-lists a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
