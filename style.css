@@ -7,10 +7,10 @@
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -19,6 +19,8 @@
     /* border: 1px solid red; */
     background-color: #1A0B2E;
     border-bottom: 1px solid #412567;
+    width: 100vw;
+    max-width: 1600px;
 }
 
 .btn-primary {
@@ -28,11 +30,11 @@
     height: 42px;
     border-radius: 25px;
     border: none;
-    background-image: linear-gradient(30deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    background-image: linear-gradient(30deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     color: #FFFFFF;
 }
 
-/* Navbar Style */
+/* Navbar Section Style */
 .navbar-container {
     /* border: 1px solid gold; */
     width: 75vw;
@@ -49,7 +51,7 @@
 }
 
 .navbar-container .logo span {
-    background-image: linear-gradient(to top, rgba(247, 233, 63, 1) , rgba(251, 9, 180, 1) , rgba(145, 0, 248, 1));
+    background-image: linear-gradient(to top, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     color: transparent;
     background-clip: text;
 }
@@ -73,8 +75,99 @@
     display: none;
 }
 
+/* Banner Section Style */
+#banner-section {
+    width: 100vw;
+    max-width: 1600px;
+    height: 88vh;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
 
+.banner-image {
+    /* border: 1px solid gold; */
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    position: relative;
+}
 
+.banner-image .circle {
+    width: 22vw;
+
+}
+
+.banner-image .microphone {
+    position: absolute;
+    top: 102px;
+    width: 8vw;
+}
+
+.banner-image .new-badge {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    width: 75px;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 25px;
+    box-shadow: 0 3px 27px 0 #00ff885e;
+    position: absolute;
+    top: 56px;
+    right: 136px;
+}
+
+.banner-content {
+    /* border: 1px solid aqua; */
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-content .banner-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.banner-content .title-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-content .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons .btn2 {
+    width: 185px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 10px;
+}
+
+.buttons .btn3 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 15px;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    background: transparent;
+}
 
 
 /* Responsive Design  */
@@ -84,11 +177,36 @@
         width: 91vw;
     }
 
-    .responsive, .btn {
+    .responsive,
+    .btn {
         display: none;
     }
 
     .navbar-container .hamburger-menu {
-        display:inline;
+        display: inline;
     }
+
+    /* Banner Section Style */
+    .banner-image .circle {
+        width: 43vw;
+        transform: translateY(22px);
+
+    }
+
+    .banner-image .microphone {
+        top: 125px;
+        width: 13vw;
+    }
+
+    .banner-image .new-badge {
+        top: 80px;
+        right: -14px;
+    }
+
+    .banner-content {
+        width: 72vw;
+        margin-top: 45px;
+    }
+
+
 }
