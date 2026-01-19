@@ -17,12 +17,11 @@
 /* Shared Style */
 #navbar-section {
     /* border: 1px solid red; */
-    max-width: 1600px;
     background-color: #1A0B2E;
     border-bottom: 1px solid #412567;
 }
 
-.btn {
+.btn-primary {
     font-size: 16px;
     font-weight: 600;
     width: 130px;
@@ -37,7 +36,6 @@
 .navbar-container {
     /* border: 1px solid gold; */
     width: 75vw;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
     display: flex;
@@ -67,4 +65,30 @@
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.navbar-container .hamburger-menu {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+
+
+
+
+/* Responsive Design  */
+
+@media screen and (max-width: 576px) {
+    .navbar-container {
+        width: 91vw;
+    }
+
+    .responsive, .btn {
+        display: none;
+    }
+
+    .navbar-container .hamburger-menu {
+        display:inline;
+    }
 }
