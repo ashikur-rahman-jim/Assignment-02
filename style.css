@@ -79,7 +79,7 @@
 #banner-section {
     width: 100vw;
     max-width: 1600px;
-    height: 88vh;
+    height: 542px;
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -172,7 +172,197 @@
 
 /* Responsive Design  */
 
-@media screen and (max-width: 576px) {
+/* Small Devices */
+@media screen and (max-width: 375px) {
+    .navbar-container {
+        width: 91vw;
+    }
+
+    .responsive,
+    .btn {
+        display: none;
+    }
+
+    .navbar-container .hamburger-menu {
+        display: inline;
+    }
+
+    /* Banner Section Style */
+    .banner-image .circle {
+        width: 65vw;
+        transform: translateY(26px);
+
+    }
+
+    .banner-image .microphone {
+        top: 131px;
+        width: 20vw;
+    }
+
+    .banner-image .new-badge {
+        top: 80px;
+        right: -55px;
+    }
+
+    .banner-content {
+        width: 88vw;
+        margin-top: 45px;
+    }
+
+    .buttons .btn2 {
+        width: 185px;
+        padding-left: 6px;
+    }
+
+    .buttons .btn3 {
+        gap: 6px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 412px) {
+    .navbar-container {
+        width: 91vw;
+    }
+
+    .responsive,
+    .btn {
+        display: none;
+    }
+
+    .navbar-container .hamburger-menu {
+        display: inline;
+    }
+
+    /* Banner Section Style */
+    .banner-image .circle {
+        width: 60vw;
+        transform: translateY(28px);
+
+    }
+
+    .banner-image .microphone {
+        top: 129px;
+        width: 20vw;
+    }
+
+    .banner-image .new-badge {
+        top: 80px;
+        right: -40px;
+    }
+
+    .banner-content {
+        width: 85vw;
+        margin-top: 45px;
+    }
+
+    .buttons .btn2 {
+        width: 185px;
+        padding-left: 10px;
+    }
+
+    .buttons .btn3 {
+        gap: 6px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 413px) and (max-width: 475px) {
+    .navbar-container {
+        width: 91vw;
+    }
+
+    .responsive,
+    .btn {
+        display: none;
+    }
+
+    .navbar-container .hamburger-menu {
+        display: inline;
+    }
+
+    /* Banner Section Style */
+    .banner-image .circle {
+        width: 54vw;
+        transform: translateY(32px);
+
+    }
+
+    .banner-image .microphone {
+        top: 135px;
+        width: 17vw;
+    }
+
+    .banner-image .new-badge {
+        top: 80px;
+        right: -22px;
+    }
+
+    .banner-content {
+        width: 75vw;
+        margin-top: 45px;
+    }
+
+    .buttons .btn2 {
+        width: 185px;
+        padding-left: 8px;
+    }
+
+    .buttons .btn3 {
+        gap: 6px;
+        padding-left: 9px;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 530px) {
+    .navbar-container {
+        width: 91vw;
+    }
+
+    .responsive,
+    .btn {
+        display: none;
+    }
+
+    .navbar-container .hamburger-menu {
+        display: inline;
+    }
+
+    /* Banner Section Style */
+    .banner-image .circle {
+        width: 47vw;
+        transform: translateY(30px);
+
+    }
+
+    .banner-image .microphone {
+        top: 133px;
+        width: 15vw;
+    }
+
+    .banner-image .new-badge {
+        top: 80px;
+        right: -22px;
+    }
+
+    .banner-content {
+        width: 75vw;
+        margin-top: 45px;
+    }
+
+    .buttons .btn2 {
+        width: 185px;
+        padding-left: 8px;
+    }
+
+    .buttons .btn3 {
+        gap: 6px;
+        padding-left: 9px;
+    }
+}
+
+
+@media screen and (min-width: 530px) and (max-width: 576px) {
     .navbar-container {
         width: 91vw;
     }
