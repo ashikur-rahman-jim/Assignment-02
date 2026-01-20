@@ -142,6 +142,7 @@
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 20px;
+    opacity: 80%;
 }
 
 .banner-content .buttons {
@@ -203,12 +204,14 @@
     color: #FFFFFF;
     margin-bottom: 40px;
     line-height: 20px;
+    opacity: 80%;
 }
 
 .about-podcast .title-description2 {
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 80px;
+    opacity: 80%;
 }
 
 hr {
@@ -233,6 +236,97 @@ hr {
     color: #FFFFFF;
     margin-bottom: 100px;
 }
+
+/* Why Choose Section Style */
+#why-choose-section {
+    width: 100%;
+    max-width: 1600px;
+    background-color: #230E3D;
+}
+
+.why-choose-container {
+    /* border: 1px solid red; */
+    width: 75vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.why-choose-container .why-choose-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 100px 0 30px;
+}
+
+.card1 {
+    grid-area: card1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    padding: 115px 30px 50px;
+    text-align: start;
+}
+
+.card2 {
+    grid-area: card2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    text-align: start;
+    padding: 40px;
+}
+
+.card3 {
+    grid-area: card3;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    text-align: start;
+    padding: 40px;
+}
+
+.card4 {
+    grid-area: card4;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    text-align: start;
+    padding: 40px;
+}
+
+.card5 {
+    grid-area: card5;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    text-align: start;
+    padding: 40px;
+}
+
+.why-choose-container .feature-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "card1 card2 card2"
+                         "card1 card3 card3"
+                         "card4 card4 card5";
+}
+
+.feature-cards img {
+    margin-bottom: 16px;
+}
+
+.feature-cards h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.feature-cards p {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 16px;
+}
+
+
 
 /* Responsive Design  */
 
@@ -319,6 +413,12 @@ hr {
     .stats-container p {
         margin-bottom: 50px;
     }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 412px) {
@@ -402,6 +502,12 @@ hr {
 
     .stats-container p {
         margin-bottom: 50px;
+    }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -487,6 +593,12 @@ hr {
     .stats-container p {
         margin-bottom: 50px;
     }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 476px) and (max-width: 530px) {
@@ -567,6 +679,12 @@ hr {
     .stats-container p {
         margin-bottom: 50px;
     }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -637,6 +755,12 @@ hr {
 
     .stats-container p {
         margin-bottom: 50px;
+    }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -712,6 +836,12 @@ hr {
         margin-bottom: 50px;
     }
 
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
@@ -784,6 +914,12 @@ hr {
         margin-bottom: 50px;
     }
 
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
@@ -854,6 +990,12 @@ hr {
 
     .stats-container p {
         margin-bottom: 50px;
+    }
+
+    /* Why Choose Section Style */
+    .why-choose-container .feature-cards {
+        display: flex;
+        flex-direction: column;
     }
 
 
