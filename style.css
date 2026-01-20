@@ -328,10 +328,11 @@ hr {
 
 /* Featured Episodes Section Style */
 #featured-episodes-section {
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     width: 100%;
     max-width: 1600px;
     background-color: #1A0B2E;
+    padding-bottom: 100px;
 }
 
 .featured-episodes-container {
@@ -347,7 +348,8 @@ hr {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
-    margin: 100px 0 40px;
+    margin: 0 0 40px;
+    padding-top: 100px;
 }
 
 .episode-cards-container {
@@ -391,6 +393,61 @@ hr {
     font-weight: 600;
     color: #00FF88;
     margin-bottom: 24px;
+}
+
+/* Host Section Style */
+.host-section {
+    /* border: 1px solid gold; */
+    width: 75vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.host-section .host-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.host-section .host-container {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 24px;
+    text-align: start;
+    align-items: center;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.host-container .content-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.host-container .title-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 12px;
+}
+
+.host-container .social {
+    display: flex;
+    gap: 10px;
+}
+
+.host-container .social span {
+    border: 1px solid rgba(83, 60, 114, 1);
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
 }
 
 
@@ -501,6 +558,20 @@ hr {
         font-size: 1.9rem;
         margin: 0px 0 40px;
     }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 2.4rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 412px) {
@@ -605,6 +676,20 @@ hr {
     .featured-episodes-container .featured-episodes-title {
         font-size: 2rem;
         margin: 0px 0 40px;
+    }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 2.5rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
     }
 }
 
@@ -711,6 +796,20 @@ hr {
         font-size: 2.2rem;
         margin: 0px 0 40px;
     }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 2.8rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 476px) and (max-width: 530px) {
@@ -812,6 +911,20 @@ hr {
         font-size: 2.5rem;
         margin: 0px 0 40px;
     }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 3rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
+    }
 }
 
 
@@ -905,6 +1018,20 @@ hr {
         margin: 0px 0 40px;
     }
 
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 3rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
+    }
+
 
 }
 
@@ -987,6 +1114,20 @@ hr {
     /* Feature Episodes Section */
     .episode-cards-container {
         flex-direction: column;
+    }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 3rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
     }
 
 
@@ -1072,6 +1213,20 @@ hr {
         flex-direction: column;
     }
 
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 3rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
+    }
+
 
 }
 
@@ -1153,6 +1308,20 @@ hr {
     /* Feature Episodes Section */
     .episode-cards-container {
         flex-direction: column;
+    }
+
+    /* Host Section Style */
+    .host-section .host-title {
+        font-size: 3rem;
+    }
+
+    .host-section .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .host-container .social {
+        justify-content: center;
     }
 
 
